@@ -11,6 +11,16 @@ jobs:
       - name: Create comment
         uses: peter-evans/create-or-update-comment@v4
         with:
-          issue-number: ${{ github.event.issue-number }}
+          issue-number: 1
           body: |
             A new issue has been created **Markdown** :sparkles:
+
+  print-github-event:
+    runs-on: ubuntu-latest
+    steps:
+        
+      - name: Print value
+        uses: actions/checkout@v2
+      
+      - name: Print entire github.event object  
+        run: echo "${{ toJson(github.event) }}"
