@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: world hello
+      - name: Hello world
         run: echo "Hello world"
         shell: bash
 
@@ -25,6 +25,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: world hello
+      - name: Goodbye world
         run: echo "Goodbye world"
         shell: bash
