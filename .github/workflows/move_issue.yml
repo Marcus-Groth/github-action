@@ -12,3 +12,4 @@ jobs:
         with:
           project: Test
           column: Todo
+          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
