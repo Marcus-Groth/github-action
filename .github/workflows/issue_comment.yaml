@@ -14,4 +14,4 @@ jobs:
           issue-number: 1
           body: |
             A new issue has been created **Markdown** :sparkles:
-          reactions: '+2'
+          reactions: 'thumbs up'
