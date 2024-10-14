@@ -17,10 +17,6 @@ jobs:
 
   print-github-event:
     runs-on: ubuntu-latest
-    steps:
-        
-      - name: Print value
-        uses: actions/checkout@v2
-      
+    steps:      
       - name: Print entire github.event object  
         run: echo "${{ github.event.issue.number }}"
