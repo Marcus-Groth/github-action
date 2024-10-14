@@ -11,5 +11,5 @@ jobs:
       - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
           project: https://github.com/users/Marcus-Groth/projects/7
-          column: Todo
+          column_name: Todo
           repo-token: ${{ secrets.GHPROJECT_TOKEN }}
