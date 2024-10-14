@@ -13,4 +13,4 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
-            A new issue has been created **Markdown** :sparkles:
+            A new issue has been opened **Markdown** :sparkles:
